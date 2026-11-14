@@ -33,7 +33,7 @@ position = Vector2(0, 16)
 shape = SubResource("CircleShape2D_we6c4")
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=737348182]
-position = Vector2(608, 336)
+position = Vector2(997, 564)
 scale = Vector2(0.2, 0.2)
 script = ExtResource("1_h2yge")
 
@@ -46,7 +46,7 @@ texture = ExtResource("3_lquwl")
 position = Vector2(-3559.9995, -320)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/pickupArea" unique_id=1616476057]
-position = Vector2(3559.9995, 280.00003)
+position = Vector2(3609.9995, 355.00003)
 shape = SubResource("RectangleShape2D_vrvny")
 
 [node name="heldLeaf" type="Sprite2D" parent="Player" unique_id=1454889041 groups=["leaf"]]
